@@ -4,7 +4,7 @@
             <div class="col">
                 <form @submit.prevent="login" autocomplete="off">
                     <div class="form-group">
-                        <label for="dni">Identificador</label>
+                        <label for="dni"><h3>Identificador</h3></label>
                         <input type="text" id="dni" class="form-control" v-model="form.id" required>
                     </div>
                     <button type="submit">Ingresar</button>
